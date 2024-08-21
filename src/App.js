@@ -11,7 +11,6 @@ import Landing from './pages/landing';
 import ChatApp from './pages/home-pages/chat-app';
 import KidsCourse from './pages/home-pages/kids-course';
 import AnalyticsPage from './pages/home-pages/analytics';
-import LandingPage from './pages/home-pages/landing';
 import BusinessDigital from './pages/home-pages/business-digital';
 import BusinessExpense from './pages/home-pages/business-expense';
 import BusinessTracker from './pages/home-pages/business-tracker';
@@ -63,7 +62,7 @@ function AppRoutes() {
     <Routes>
 
       {/* landing page */}
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/" element={<AnalyticsPage />} />
 
       {/* Homepages */}
       <Route path="/index-analytics" element={<AnalyticsPage />} />
