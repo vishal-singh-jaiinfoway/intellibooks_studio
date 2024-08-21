@@ -258,7 +258,7 @@ const IntelliBooks = () => {
 
 const IntelligenAI = () => {
   const handleButtonClick = () => {
-    window.location.href = "https://www.intelligenai.io/index-analytics";
+    window.location.href = "/index-analytics";
   };
 
   return (
